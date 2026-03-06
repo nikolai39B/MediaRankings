@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "745ec9c6d47932fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "89fab3a8aae36cd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "755ce422d18218b0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Games"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c16d1d9f13e0102a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c04da2b7d7777294",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "Games/Scripts/steamgriddb_utils2.js"
+              },
+              "icon": "lucide-file",
+              "title": "steamgriddb_utils2"
+            }
+          },
+          {
+            "id": "9d81cadd174229d7",
+            "type": "leaf",
+            "state": {
+              "type": "vscode-editor",
+              "state": {
+                "file": "Scripts/file_utils.js"
+              },
+              "icon": "lucide-file",
+              "title": "file_utils"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "693fbb4de1a50f7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e6ad1bf974f50e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76eb188fc03a7e51",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f54c46f07c9c5518",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "elde",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0f7b10ec3ea941eb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a1c8eed844037cde",
+    "type": "split",
+    "children": [
+      {
+        "id": "30829f8480f7ff85",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274682c6a82f99cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Games.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Games"
+            }
+          },
+          {
+            "id": "7e6e27af7f021347",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Games.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Games"
+            }
+          },
+          {
+            "id": "c9464c48486d07de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "714bcfa4b7298025",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "54011acdc6705745",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Games.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Games"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "vscode-editor:Create Code File": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c04da2b7d7777294",
+  "lastOpenFiles": [
+    "Games/Games.md",
+    "Games/Scripts/steamgriddb_utils2.js",
+    "Games/Scripts/steamgriddb_utils.js",
+    "Games/Scripts/game_processing.js",
+    "Games/Games Script.md",
+    "Scripts/file_utils.js",
+    "Scripts/jse_main.js",
+    "Templates/Game.md",
+    "Games/Scripts/games.js",
+    "Games/Lists/Top Games.yaml",
+    "Games/Lists/By Year.yaml",
+    "Games/Lists/Top Games.md",
+    "Games/Lists/By Year - Copy.md",
+    "Games/Lists/By Year.md",
+    "Scripts/New Text Document.txt",
+    "Scripts",
+    "Games/Games 2.md",
+    "Games/Games 1.md",
+    "Games/Images/twelve_minutes.png",
+    "Games/Games/Twelve Minutes.md",
+    "Games/Images/trailmakers.png",
+    "Games/Games/Trailmakers.md",
+    "Games/Images/unboxing_the_cryptic_killer.png",
+    "Games/Games/Unboxing the Cryptic Killer.md",
+    "Games/Images/untitled_goose_game.png",
+    "Games/Games/Untitled Goose Game.md",
+    "Games/Images/pubg_battlegrounds.png",
+    "Games/Games/PUBG Battlegrounds.md",
+    "Games/Images/thief.jpg",
+    "Games/Games/Thief.md",
+    "Games/Images/sanctum.png",
+    "Games/Games/Sanctum.md",
+    "Games/Images/slime_rancher.png",
+    "Games/Games/Slime Rancher.md",
+    "Games/Images/payday_3.jpg",
+    "Games/Games/PAYDAY 3.md",
+    "Games/Images/styx_master_of_shadows.png",
+    "Games/Games/Styx Master of Shadows.md",
+    "Games/Games/Shadow Tactics Blades of the Shogun.md",
+    "Games/Games/Planet Coaster.md",
+    "Games/Games/Roller Coaster Tycoon.md",
+    "Games/Games/Myst.md",
+    "Games/Games/Palworld.md",
+    "Games/Games/Operation Tango.md",
+    "Games/Games/Ori and the Will of the Wisps.md"
+  ]
+}
