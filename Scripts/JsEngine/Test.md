@@ -1,7 +1,3 @@
----
-creation_date: 2026-03-06
-_resolved: false
----
 
 ```js-engine
 const file = app.workspace.getActiveFile();

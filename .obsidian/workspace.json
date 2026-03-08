@@ -24,6 +24,48 @@
             }
           },
           {
+            "id": "5525b84b636fe208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Factorio Space Age.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Factorio Space Age"
+            }
+          },
+          {
+            "id": "08ab5cb06611ebf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Breakout 13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Breakout 13"
+            }
+          },
+          {
+            "id": "d32393af0d96146e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Outer Wilds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Outer Wilds"
+            }
+          },
+          {
             "id": "e83e3807644870f2",
             "type": "leaf",
             "pinned": true,
@@ -71,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "elde",
+                "query": "[\"2026\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +225,8 @@
               "title": "Outline of Games"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -204,50 +247,50 @@
   "active": "755ce422d18218b0",
   "lastOpenFiles": [
     "Games/Games/Apex Legends.md",
-    "Games/Games/Assassin's Creed Revelations.md",
+    "Games/Games/Until Then.md",
     "Games/Games.md",
-    "Games/Games/Outer Wilds.md",
-    "Games/Games/Roller Coaster Tycoon.md",
-    "Games/Images/roller_coaster_tycoon.png",
+    "Games/Games/Factorio Space Age.md",
+    "Games/Games/Helldivers II.md",
+    "Games/Images/baldur's_gate_iii.png",
+    "Scripts/JsEngine/Test.md",
+    "Games/Games/Chants of Sennar.md",
+    "Games/Images/chants_of_sennar.png",
+    "Games/Games/Baldur's Gate 3.md",
+    "Games/Images/windblown.png",
+    "Games/Images/lies_of_p.png",
+    "Games/Images/baldur's_gate_3.png",
+    "Games/Games/Lies of P.md",
+    "Games/Images/tetris.png",
+    "Games/Images/elden_ring_shadows_of_the_erdtree.png",
+    "Games/Images/hitman_freelancer.png",
+    "Games/Games/Windblown.md",
+    "Games/Games/Elden Ring Shadows of the Erdtree.md",
+    "Games/Games/Hitman Freelancer.md",
+    "Games/Games/Tetris.md",
+    "Games/Lists/Top Games 2023.yaml",
+    "Games/Lists/Top Games 2024.yaml",
+    "Scripts/JsEngine/Properties.md",
+    "Games/Images/schedule_1.jpg",
+    "Games/Images/doom_eternal_ancient_gods.jpg",
+    "Games/Games/Schedule 1.md",
+    "Games/Games/Doom Eternal Ancient Gods.md",
+    "Games/Games/Granblue Fantasy Versus Rising.md",
+    "Games/Games/Chants of Sennaar.md",
+    "Games/Games/Unravel 2.md",
+    "Games/Games/Breakout 13.md",
+    "Games/Games/Frog Detective 3.md",
+    "Games/Games/Dave the Diver.md",
+    "Games/Games/Life Is Strange True Colors.md",
+    "Games/Games/Total War Three Kingdoms.md",
+    "Games/Games/Ghost of Tsushima.md",
+    "Games/Games/Tales of Arise.md",
     "Games/Lists/Top Games 2025.yaml",
-    "Games/Games Script.md",
     "Scripts/QuickAdd/Commands/qa_command-update_games.js",
-    "Games/Games/Dishonored.md",
-    "Games/Images/apex_legends.jpg",
-    "Games/Games/A Way Out.md",
-    "Games/Games/Metaphor ReFantazio.md",
-    "Games/Games/Age of Empires 3.md",
-    "metaphor_refantazio.png.md",
-    "Games/Games/HITMAN.md",
-    "Games/Games/Elden Ring.md",
-    "Games/Games/Dark Souls III.md",
-    "Games/Images/outer_wilds.png",
-    "Games/Images/outer_wilds.jpg",
-    "Games/Images/overcooked_2.png",
-    "Games/Images/overwatch.png",
-    "Games/Images/orcs_must_die_3.png",
-    "Games/Images/ori_and_the_will_of_the_wisps.png",
-    "Games/Images/elden_ring_nightreign.png",
-    "Games/Images/system_shock.png",
     "Scripts/CustomJs/gameProcessing.js",
     "Scripts/CustomJs/gameProcessing",
     "Scripts/CustomJs/steamGridDbUtils.js",
     "Scripts/CustomJs/gameProperties.js",
     "Scripts/CustomJs/_gameProperties.js",
-    "Scripts/CustomJs/yamlFileUtils.js",
-    "Scripts/CustomJs/steamgriddb_utils.js",
-    "Scripts/CustomJs/fileMetadata.js",
-    "Scripts/JsEngine/Test.md",
-    "Scripts/JsEngine/Properties.md",
-    "Scripts/Scripts/JsEngine/Test.md",
-    "Scripts/Scripts/JsEngine/Properties.md",
-    "Games/Games/Baldur's Gate III.md",
-    "Games/Games/Megaman 11.md",
-    "Templates/Game.md",
-    "Games/Lists/Top Games.md",
-    "Games/Lists/By Year - Copy.md",
-    "Games/Lists/By Year.md",
-    "Games/Games 2.md",
-    "Games/Games 1.md"
+    "Scripts/CustomJs/yamlFileUtils.js"
   ]
 }

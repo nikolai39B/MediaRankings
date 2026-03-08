@@ -8,7 +8,7 @@ class GameProperties {
                 tier: new customJS.FileMetadata.Property({ name: "tier", display: "Tier" }),
                 rank: new customJS.FileMetadata.Property({ name: "rank", display: "#" }),
                 year: new customJS.FileMetadata.Property({ name: "year", display: "Year" }),
-                year_rank: new customJS.FileMetadata.Property({ name: "year_rank", display: "#" }),
+                yearRank: new customJS.FileMetadata.Property({ name: "year_rank", display: "#" }),
                 image: new customJS.FileMetadata.Property({ name: "image", display: "Image" }),
             });
         }
@@ -16,26 +16,28 @@ class GameProperties {
     }
 
     // Year properties
-    _yearProperties = null;
-    get yearProperties() {
-        if (!this._yearProperties) {
-            // Note the first and last year of the range
-            const firstYear = 2010;
-            const lastYear = 2040;
-
-            // Build the properties
-            this._yearProperties = {}
-            for (let yy = firstYear; yy <= lastYear; yy++) {
-                const year = yy.toString();
-                this._yearProperties[year] = new customJS.FileMetadata.Property({ name: year, display: year });
-                this._yearProperties[`${year}Rank`] = new customJS.FileMetadata.Property({ name: `${year}_rank`, display: "#" });
-            }
-
-            // Freeze the properties
-            this._yearProperties = Object.freeze(this._yearProperties);
-        }
-        return this._yearProperties;
-    }
+    //_yearProperties = null;
+    //get yearProperties() {
+    //    if (!this._yearProperties) {
+    //        this._yearProperties = {}
+    //        this._yearProperties.hasYearRank = new customJS.FileMetadata.Property({ name: "has_year_rank", display: "" });
+//
+    //        // Note the first and last year of the range
+    //        const firstYear = 2010;
+    //        const lastYear = 2040;
+//
+    //        // Build the properties
+    //        for (let yy = firstYear; yy <= lastYear; yy++) {
+    //            const year = yy.toString();
+    //            this._yearProperties[year] = new customJS.FileMetadata.Property({ name: year, display: year });
+    //            this._yearProperties[`${year}Rank`] = new customJS.FileMetadata.Property({ name: `${year}_rank`, display: "#" });
+    //        }
+//
+    //        // Freeze the properties
+    //        this._yearProperties = Object.freeze(this._yearProperties);
+    //    }
+    //    return this._yearProperties;
+    //}
 
     // Games list properties
     _listProperties = null;

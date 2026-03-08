@@ -5,7 +5,7 @@ filters:
     - file.inFolder("Games/Games")
 formulas:
   Rank Title: file.properties["rank"] + " " + file.properties["name"]
-  Year Rank Title: file.properties["YearRank"] + " " + file.properties["Name"]
+  Year Rank Title: file.properties["year_rank"] + " " + file.properties["name"]
 properties:
   note.Rank:
     displayName: "#"
@@ -13,9 +13,14 @@ properties:
     displayName: Game
   note.rank:
     displayName: "#"
+  note.year_rank:
+    displayName: "#"
 views:
   - type: cards
     name: Cards
+    filters:
+      and:
+        - file.hasProperty("rank")
     order:
       - formula.Rank Title
     sort:
@@ -38,14 +43,36 @@ views:
     columnSize:
       note.rank: 62
   - type: cards
-    name: Year Top 10
+    name: Year Cards
     filters:
       and:
-        - Year == "2025"
+        - file.hasProperty("year_rank")
+    groupBy:
+      property: year
+      direction: DESC
     order:
       - formula.Year Rank Title
+    sort:
+      - property: year_rank
+        direction: ASC
     image: note.Image
     imageFit: contain
     imageAspectRatio: 1.5
+  - type: table
+    name: Year Table
+    filters:
+      and:
+        - file.hasProperty("year")
+    groupBy:
+      property: year
+      direction: DESC
+    order:
+      - year_rank
+      - file.name
+    sort:
+      - property: year_rank
+        direction: ASC
+    columnSize:
+      note.year_rank: 58
 
 ```

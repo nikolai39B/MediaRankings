@@ -1,6 +1,4 @@
 {
-  "startupScripts": [
-    "Scripts/jse_main.js"
-  ],
+  "startupScripts": [],
   "disableStatusbar": false
 }

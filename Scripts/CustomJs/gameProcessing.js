@@ -36,18 +36,18 @@ class GameProcessing {
             }
 
             // Build the file
-            fileProperties = [];
-            gameFile = this.#processGameFile(gameName, fileProperties);
+            let fileProperties = [];
+            const gameFile = await this.#processGameFile(gameName, fileProperties);
 
             // Add the tier and rank
             this.#addProperty(customJS.GameProperties.properties.tier, tier, fileProperties);
             this.#addProperty(customJS.GameProperties.properties.rank, nextRank++, fileProperties);
 
             // Process the image
-            this.#processGameImage(gameName, gameFile)
+            await this.#processGameImage(gameName, gameFile, fileProperties)
 
             // Apply the properties
-            customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
+            await customJS.FileUtils.setPropertyValues(gameFile, fileProperties);
         }
 
         return nextRank;
@@ -55,8 +55,8 @@ class GameProcessing {
 
     async #processTopGamesYearData(data, year) {
         // Unpack the data
-        const top10Data = gameData["Top 10"];
-        const hmData = gameData["Honorable Mentions"];
+        const top10Data = data["Top 10"];
+        const hmData = data["Honorable Mentions"];
 
         // Process the data
         if (top10Data) {
@@ -77,18 +77,18 @@ class GameProcessing {
             }
 
             // Build the file
-            fileProperties = [];
-            gameFile = this.#processGameFile(gameName, fileProperties);
+            let fileProperties = [];
+            const gameFile = await this.#processGameFile(gameName, fileProperties);
 
             // Add the year and rank
-            this.#addProperty(customJS.GameProperties.yearProperties[year], year, fileProperties);
-            this.#addProperty(customJS.GameProperties.yearProperties[`${year}Rank`], nextRank++, fileProperties);
+            this.#addProperty(customJS.GameProperties.properties.year, year, fileProperties);
+            this.#addProperty(customJS.GameProperties.properties.yearRank, nextRank++, fileProperties);
 
             // Process the image
-            this.#processGameImage(gameName, gameFile)
+            await this.#processGameImage(gameName, gameFile, fileProperties)
 
             // Apply the properties
-            customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
+            await customJS.FileUtils.setPropertyValues(gameFile, fileProperties);
         }
     }
 
@@ -101,23 +101,23 @@ class GameProcessing {
             }
 
             // Build the file
-            fileProperties = [];
-            gameFile = this.#processGameFile(gameName, fileProperties);
+            let fileProperties = [];
+            const gameFile = await this.#processGameFile(gameName, fileProperties);
 
             // Add the year (no rank for honorable mentions)
-            this.#addProperty(customJS.GameProperties.yearProperties[year], year, fileProperties);
+            this.#addProperty(customJS.GameProperties.properties.year, year, fileProperties);
 
             // Process the image
-            this.#processGameImage(gameName, gameFile)
+            await this.#processGameImage(gameName, gameFile, fileProperties)
 
             // Apply the properties
-            customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
+            await customJS.FileUtils.setPropertyValues(gameFile, fileProperties);
         }
     }
 
 
     //-- PROCESSING UTILS / HELPERS
-    async #validateGameName(gameName) {
+    #validateGameName(gameName) {
         const isString = typeof gameName === "string";
         if (!isString) {
             console.log(gameName);
@@ -127,7 +127,7 @@ class GameProcessing {
         return isString;
     }
 
-    async #addProperty(property, value, fileProperties) {
+    #addProperty(property, value, fileProperties) {
         fileProperties.push(new customJS.FileMetadata.PropertyValuePair({
             property: property,
             value: value
@@ -180,7 +180,8 @@ class GameProcessing {
 
 		const filters = [
 			// Only allow png or jpg images
-			(grid) => grid.url.endsWith(".png") || grid.url.endsWith(".jpg") 
+			(grid) => grid.url.endsWith(".png") || grid.url.endsWith(".jpg"),
+			(grid) => grid.height == 900 && grid.width == 600
 		];
 		
 		// Return the first image which passes the filters
