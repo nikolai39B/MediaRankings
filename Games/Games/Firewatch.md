@@ -1,6 +1,6 @@
 ---
 name: Firewatch
-rank: 148
+rank: 147
 tier: C-
 image: "[[Games/Images/firewatch.png]]"
 ---

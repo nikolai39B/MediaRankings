@@ -1,6 +1,6 @@
 ---
 name: Alan Wake
-rank: 88
+rank: 87
 tier: C
 image: "[[Games/Images/alan_wake.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
 name: LIMBO
-rank: 67
+rank: 66
 tier: B-
 image: "[[Games/Images/limbo.png]]"
 ---

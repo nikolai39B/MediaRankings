@@ -1,16 +1,40 @@
 class GameProperties {
     // Game properties
-    _properties = null;    
+    _properties = null;
     get properties() {
         if (!this._properties) {
             this._properties = Object.freeze({
                 name: new customJS.FileMetadata.Property({ name: "name", display: "Name" }),
                 tier: new customJS.FileMetadata.Property({ name: "tier", display: "Tier" }),
                 rank: new customJS.FileMetadata.Property({ name: "rank", display: "#" }),
+                year: new customJS.FileMetadata.Property({ name: "year", display: "Year" }),
+                year_rank: new customJS.FileMetadata.Property({ name: "year_rank", display: "#" }),
                 image: new customJS.FileMetadata.Property({ name: "image", display: "Image" }),
             });
         }
         return this._properties;
+    }
+
+    // Year properties
+    _yearProperties = null;
+    get yearProperties() {
+        if (!this._yearProperties) {
+            // Note the first and last year of the range
+            const firstYear = 2010;
+            const lastYear = 2040;
+
+            // Build the properties
+            this._yearProperties = {}
+            for (let yy = firstYear; yy <= lastYear; yy++) {
+                const year = yy.toString();
+                this._yearProperties[year] = new customJS.FileMetadata.Property({ name: year, display: year });
+                this._yearProperties[`${year}Rank`] = new customJS.FileMetadata.Property({ name: `${year}_rank`, display: "#" });
+            }
+
+            // Freeze the properties
+            this._yearProperties = Object.freeze(this._yearProperties);
+        }
+        return this._yearProperties;
     }
 
     // Games list properties

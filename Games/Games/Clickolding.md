@@ -1,6 +1,6 @@
 ---
 name: Clickolding
-rank: 163
+rank: 162
 tier: C-
 image: "[[clickolding.jpg]]"
 ---

@@ -1,6 +1,6 @@
 ---
 name: Cipher Zero
-rank: 59
+rank: 58
 tier: B-
 image: "[[cipher_zero.jpg]]"
 ---

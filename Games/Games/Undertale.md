@@ -1,6 +1,6 @@
 ---
 name: Undertale
-rank: 89
+rank: 88
 tier: C
 image: "[[Games/Images/undertale.png]]"
 ---

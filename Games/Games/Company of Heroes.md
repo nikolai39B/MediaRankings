@@ -1,6 +1,6 @@
 ---
 name: Company of Heroes
-rank: 181
+rank: 180
 tier: C-
 image: "[[Games/Images/company_of_heroes.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
 name: House Flipper
-rank: 111
+rank: 110
 tier: C-
 image: "[[Games/Images/house_flipper.png]]"
 ---

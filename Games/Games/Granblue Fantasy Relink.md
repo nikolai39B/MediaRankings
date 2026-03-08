@@ -1,6 +1,6 @@
 ---
 name: "Granblue Fantasy: Relink"
-rank: 86
+rank: 85
 tier: C
 image: "[[Games/Images/granblue_fantasy_relink.png]]"
 ---

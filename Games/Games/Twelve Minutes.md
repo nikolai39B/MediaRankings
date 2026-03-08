@@ -1,6 +1,6 @@
 ---
 name: Twelve Minutes
-rank: 183
+rank: 182
 tier: D
 image: "[[Games/Images/twelve_minutes.png]]"
 ---

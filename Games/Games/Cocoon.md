@@ -1,6 +1,6 @@
 ---
 name: Cocoon
-rank: 92
+rank: 91
 tier: C
 image: "[[Games/Images/cocoon.png]]"
 ---

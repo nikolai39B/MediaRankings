@@ -1,6 +1,6 @@
 ---
 name: Bioshock Infinite
-rank: 54
+rank: 53
 tier: B-
 image: "[[Games/Images/bioshock_infinite.png]]"
 ---

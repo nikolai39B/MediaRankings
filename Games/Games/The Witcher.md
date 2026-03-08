@@ -1,6 +1,6 @@
 ---
 name: The Witcher
-rank: 172
+rank: 171
 tier: C-
 image: "[[Games/Images/the_witcher.png]]"
 ---

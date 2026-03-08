@@ -1,6 +1,6 @@
 ---
 name: "Rainbow 6: Siege"
-rank: 108
+rank: 107
 tier: C
 image: "[[rainbow_six_siege.png]]"
 ---

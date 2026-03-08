@@ -1,6 +1,6 @@
 ---
 name: Bioshock
-rank: 62
+rank: 61
 tier: B-
 image: "[[Games/Images/bioshock.png]]"
 ---

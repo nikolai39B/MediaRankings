@@ -1,6 +1,6 @@
 ---
 name: Split Fiction
-rank: 118
+rank: 117
 tier: C-
 image: "[[Games/Images/split_fiction.png]]"
 ---

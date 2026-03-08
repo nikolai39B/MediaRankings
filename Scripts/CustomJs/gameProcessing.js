@@ -1,22 +1,28 @@
 class GameProcessing {
-    constructor () {
-        this.topGamesFilePath = "Games/Lists/Top Games.yaml";
-        this.gameFilesLocation = "Games/Games/";
-		this.gameImagesLocation = "Games/Images/";
-		this.steamGridDbApiKey = "f1e243af8c47d40bbeb98e311407cc79";
-    }
+    get steamGridDbApiKey() { return "f1e243af8c47d40bbeb98e311407cc79" }
+    get gameFilesLocation() { return "Games/Games/" }
+    get gameImagesLocation() { return "Games/Images/" }
 
+    //-- TOP LEVEL PROCESSING APIS
     async processTopGames() {
-        const topGamesFile = customJS.FileUtils.getFileFromPath(this.topGamesFilePath);
-        const gameData = await customJS.YamlFileUtils.parseYamlFile(topGamesFile, customJS.obsidian);
-        await this.processGameData(gameData);
+        const file = customJS.FileUtils.getFileFromPath("Games/Lists/Top Games.yaml");
+        const data = await customJS.YamlFileUtils.parseYamlFile(file);
+        await this.#processTopGameData(data);
     }
 
-    async processGameData(gameData) {
+    async processTopGamesYear(year) {        
+        const file = customJS.FileUtils.getFileFromPath(`Games/Lists/Top Games ${year}.yaml`);
+        const data = await customJS.YamlFileUtils.parseYamlFile(file);
+        await this.#processTopGamesYearData(data, year);
+    }
+
+    
+    //-- TOP LEVEL DATA PROCESSING
+    async #processTopGameData(data) {
         let nextRank = 1;
 
         // Process each game tier
-        for (const [tier, gameNames] of Object.entries(gameData)) {            
+        for (const [tier, gameNames] of Object.entries(data)) {            
             nextRank = await this.#processGameTier(tier, gameNames, nextRank);
         }
     }
@@ -24,52 +30,134 @@ class GameProcessing {
     async #processGameTier(tier, gameNames, nextRank) {
         // Process each game
         for (const gameName of gameNames) {
-            // Build the game file name
-            let gameFileName = gameName.replaceAll(":", "");
-            gameFileName = this.gameFilesLocation + gameFileName + ".md";
-
-            // Get the file / create if necessary
-            let gameFile = app.vault.getFileByPath(gameFileName);		
-            if (gameFile == null) {
-                gameFile = await app.vault.create(gameFileName, "")
+            // Validate
+            if (!this.#validateGameName(gameName)) {
+                continue;
             }
 
-            // Build the properties
-            let gameFilePropertyValues = [
-                new customJS.FileMetadata.PropertyValuePair({
-                    property: customJS.GameProperties.properties.name,
-                    value: gameName
-                }),
-                new customJS.FileMetadata.PropertyValuePair({
-                    property: customJS.GameProperties.properties.tier,
-                    value: tier
-                }),
-                new customJS.FileMetadata.PropertyValuePair({
-                    property: customJS.GameProperties.properties.rank,
-                    value: nextRank++
-                })
-            ];
-            
-            // Download a default image if necessary
-            //let gameImagePropertyValue = customJS.FileUtils.getPropertyValue(gameFile, customJS.GameProperties.properties.image);
-            //if (!gameImagePropertyValue) {
-            //    const imagePath = await this.#downloadDefaultImage(gameName);
-            //    if (imagePath) {
-            //        gameFilePropertyValues.push(
-            //            new customJS.FileMetadata.PropertyValuePair({
-            //                property: customJS.GameProperties.properties.image,
-            //                value: "[[" + imagePath + "]]"
-            //            })
-            //        );
-            //    }
-            //}
+            // Build the file
+            fileProperties = [];
+            gameFile = this.#processGameFile(gameName, fileProperties);
+
+            // Add the tier and rank
+            this.#addProperty(customJS.GameProperties.properties.tier, tier, fileProperties);
+            this.#addProperty(customJS.GameProperties.properties.rank, nextRank++, fileProperties);
+
+            // Process the image
+            this.#processGameImage(gameName, gameFile)
+
+            // Apply the properties
+            customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
+        }
+
+        return nextRank;
+    }
+
+    async #processTopGamesYearData(data, year) {
+        // Unpack the data
+        const top10Data = gameData["Top 10"];
+        const hmData = gameData["Honorable Mentions"];
+
+        // Process the data
+        if (top10Data) {
+            this.#processYearTop10(year, top10Data)
+        }
+        if (hmData) {
+            this.#processYearHonorableMentions(year, hmData)
+        }
+    }
+
+    async #processYearTop10(year, gameNames) {
+        // Process each game
+        let nextRank = 1;
+        for (const gameName of gameNames) {
+            // Validate
+            if (!this.#validateGameName(gameName)) {
+                continue;
+            }
+
+            // Build the file
+            fileProperties = [];
+            gameFile = this.#processGameFile(gameName, fileProperties);
+
+            // Add the year and rank
+            this.#addProperty(customJS.GameProperties.yearProperties[year], year, fileProperties);
+            this.#addProperty(customJS.GameProperties.yearProperties[`${year}Rank`], nextRank++, fileProperties);
+
+            // Process the image
+            this.#processGameImage(gameName, gameFile)
 
             // Apply the properties
             customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
         }
     }
-	
-    async #downloadDefaultImage(gameName) {	
+
+    async #processYearHonorableMentions(year, gameNames) {
+        // Process each game
+        for (const gameName of gameNames) {
+            // Validate
+            if (!this.#validateGameName(gameName)) {
+                continue;
+            }
+
+            // Build the file
+            fileProperties = [];
+            gameFile = this.#processGameFile(gameName, fileProperties);
+
+            // Add the year (no rank for honorable mentions)
+            this.#addProperty(customJS.GameProperties.yearProperties[year], year, fileProperties);
+
+            // Process the image
+            this.#processGameImage(gameName, gameFile)
+
+            // Apply the properties
+            customJS.FileUtils.setPropertyValues(gameFile, gameFilePropertyValues);
+        }
+    }
+
+
+    //-- PROCESSING UTILS / HELPERS
+    async #validateGameName(gameName) {
+        const isString = typeof gameName === "string";
+        if (!isString) {
+            console.log(gameName);
+            console.log("... is not a string");
+        }
+
+        return isString;
+    }
+
+    async #addProperty(property, value, fileProperties) {
+        fileProperties.push(new customJS.FileMetadata.PropertyValuePair({
+            property: property,
+            value: value
+        }));
+    }
+
+    async #processGameFile(gameName, fileProperties) {
+        // Build the game file name
+        let gameFileName = gameName.replaceAll(":", "");
+        gameFileName = this.gameFilesLocation + gameFileName + ".md";
+
+        // Get the file / create if necessary
+        let gameFile = app.vault.getFileByPath(gameFileName);		
+        if (gameFile == null) {
+            gameFile = await app.vault.create(gameFileName, "")
+        }
+
+        // Add the game name property
+        this.#addProperty(customJS.GameProperties.properties.name, gameName, fileProperties);
+
+        return gameFile;
+    }
+
+    async #processGameImage(gameName, gameFile, fileProperties) {	
+        // If the game already has an image, nothing to do
+        const gameImagePropertyValue = customJS.FileUtils.getPropertyValue(gameFile, customJS.GameProperties.properties.image);
+        if (gameImagePropertyValue) {
+            return null;
+        }
+
 		// Search for the game ID
 		var uriGameName = encodeURIComponent(gameName);
 		const gameSearchResponse = await requestUrl({ 
@@ -77,7 +165,7 @@ class GameProcessing {
 			headers: { Authorization: `Bearer ${this.steamGridDbApiKey}` } 
 		});
 		if (!gameSearchResponse.json.success || gameSearchResponse.json.data.length === 0) {
-			return "";
+			return null;
 		}
 		var gameId = gameSearchResponse.json.data[0].id;
 		
@@ -87,7 +175,7 @@ class GameProcessing {
 			headers: { Authorization: `Bearer ${this.steamGridDbApiKey}` } 
 		});
 		if (!gameGridsResponse.json.success || gameGridsResponse.json.data.length === 0) {
-			return "";
+			return null;
 		}
 
 		const filters = [
@@ -95,7 +183,7 @@ class GameProcessing {
 			(grid) => grid.url.endsWith(".png") || grid.url.endsWith(".jpg") 
 		];
 		
-		// Return the first image which is a png or jpg
+		// Return the first image which passes the filters
 		var imageUrl = ""
 		for (const grid of gameGridsResponse.json.data) {
 			const passes = filters.every(filter => filter(grid));
@@ -106,9 +194,7 @@ class GameProcessing {
 		}
 		if (imageUrl === "") {
 			return "";
-		}
-		
-		console.log(`Loaded image: ${imageUrl}`);
+		}		
 		
 		// Build the name of the file
 		var imageName = gameName.replaceAll(":", "");
@@ -127,7 +213,10 @@ class GameProcessing {
 		// Download the file
 		const response = await requestUrl({ url: imageUrl });
 		await app.vault.adapter.writeBinary(imagePath, response.arrayBuffer);
-		
-		return imagePath;
+		console.log(`Loaded image for ${gameName}: ${imageUrl}`);
+
+        // Add the property
+        this.#addProperty(customJS.GameProperties.properties.image, "[[" + imagePath + "]]", fileProperties);
+        return imageUrl;
 	}
 }

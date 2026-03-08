@@ -1,6 +1,6 @@
 ---
 name: Eternights
-rank: 71
+rank: 70
 tier: C
 image: "[[Games/Images/eternights.png]]"
 ---

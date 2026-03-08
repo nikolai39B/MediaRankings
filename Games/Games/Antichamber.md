@@ -1,6 +1,6 @@
 ---
 name: Antichamber
-rank: 85
+rank: 84
 tier: C
 image: "[[Games/Images/antichamber.png]]"
 ---

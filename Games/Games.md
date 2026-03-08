@@ -4,13 +4,15 @@ filters:
   and:
     - file.inFolder("Games/Games")
 formulas:
-  Rank Title: file.properties["Rank"] + " " + file.properties["Name"]
+  Rank Title: file.properties["rank"] + " " + file.properties["name"]
   Year Rank Title: file.properties["YearRank"] + " " + file.properties["Name"]
 properties:
   note.Rank:
     displayName: "#"
   file.name:
     displayName: Game
+  note.rank:
+    displayName: "#"
 views:
   - type: cards
     name: Cards
@@ -29,12 +31,12 @@ views:
       direction: ASC
     order:
       - Rank
-      - Name
+      - file.name
     sort:
       - property: rank
         direction: ASC
     columnSize:
-      note.rank: 83
+      note.rank: 62
   - type: cards
     name: Year Top 10
     filters:

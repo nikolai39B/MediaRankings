@@ -1,6 +1,6 @@
 ---
 name: Minecraft
-rank: 63
+rank: 62
 tier: B-
 image: "[[Games/Images/minecraft.png]]"
 ---

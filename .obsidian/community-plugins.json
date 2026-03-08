@@ -1,5 +1,6 @@
 [
   "steamgriddb-embedder",
   "js-engine",
-  "customjs"
+  "customjs",
+  "quickadd"
 ]
