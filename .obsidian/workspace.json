@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "1cbf998f5349d43b",
+            "id": "41c0b4c8478e059b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Games/Outer Wilds.md",
+                "file": "Games/Games/Metaphor ReFantazio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Outer Wilds"
+              "title": "Metaphor ReFantazio"
             }
           },
           {
@@ -70,57 +70,17 @@
             }
           },
           {
-            "id": "9329902f70ba7fb2",
+            "id": "44baf6bf8daf3a5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Games.md",
+                "file": "Games/Games/Dishonored.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Games"
-            }
-          },
-          {
-            "id": "7529c1a63f6b81f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Games/Games/Outer Wilds.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Outer Wilds"
-            }
-          },
-          {
-            "id": "c9a13cafec52249a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Games/Games/Outer Wilds.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Outer Wilds"
-            }
-          },
-          {
-            "id": "8e9c7f177293f421",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Games/Images/outer_wilds.png"
-              },
-              "icon": "lucide-image",
-              "title": "outer_wilds"
+              "title": "Dishonored"
             }
           }
         ]
@@ -287,22 +247,30 @@
   },
   "active": "755ce422d18218b0",
   "lastOpenFiles": [
-    "Games/Games/Outer Wilds.md",
+    "Games/Games/Metaphor ReFantazio.md",
+    "Games/Games/Apex Legends.md",
     "Games/Games.md",
+    "Games/Games Script.md",
+    "metaphor_refantazio.png.md",
+    "Games/Games/HITMAN.md",
+    "Games/Games/Dishonored.md",
+    "Games/Games/Elden Ring.md",
+    "Games/Games/Dark Souls III.md",
+    "Games/Games/Outer Wilds.md",
+    "Games/Games/Age of Empires 3.md",
+    "Games/Games/A Way Out.md",
     "Games/Images/outer_wilds.png",
     "Games/Images/outer_wilds.jpg",
     "Games/Images/overcooked_2.png",
     "Games/Images/overwatch.png",
     "Games/Images/orcs_must_die_3.png",
     "Games/Images/ori_and_the_will_of_the_wisps.png",
-    "Games/Games Script.md",
     "Games/Images/elden_ring_nightreign.png",
     "Games/Images/system_shock.png",
     "Games/Images/dark_souls_ii_scholar_of_the_first_sin.png",
     "Games/Images/dishonored.png",
     "Scripts/CustomJs/gameProcessing.js",
     "Scripts/CustomJs/gameProcessing",
-    "Games/Games/Apex Legends.md",
     "Scripts/CustomJs/steamGridDbUtils.js",
     "Scripts/CustomJs/gameProperties.js",
     "Scripts/CustomJs/_gameProperties.js",
@@ -324,13 +292,6 @@
     "Games/Lists/By Year.md",
     "Games/Games 2.md",
     "Games/Games 1.md",
-    "Games/Games/Twelve Minutes.md",
-    "Games/Games/Trailmakers.md",
-    "Games/Games/Unboxing the Cryptic Killer.md",
-    "Games/Games/Untitled Goose Game.md",
-    "Games/Games/PUBG Battlegrounds.md",
-    "Games/Games/Thief.md",
-    "Games/Games/Sanctum.md",
-    "Games/Games/Slime Rancher.md"
+    "Games/Games/Twelve Minutes.md"
   ]
 }

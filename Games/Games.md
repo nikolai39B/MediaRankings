@@ -17,7 +17,7 @@ views:
     order:
       - formula.Rank Title
     sort:
-      - property: Rank
+      - property: rank
         direction: ASC
     image: note.Image
     imageFit: contain
@@ -25,16 +25,16 @@ views:
   - type: table
     name: Table
     groupBy:
-      property: Tier
+      property: tier
       direction: ASC
     order:
       - Rank
       - Name
     sort:
-      - property: Rank
+      - property: rank
         direction: ASC
     columnSize:
-      note.Rank: 62
+      note.rank: 83
   - type: cards
     name: Year Top 10
     filters:
