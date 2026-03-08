@@ -1,6 +1,6 @@
 ---
-Name: R.E.P.O.
-Rank: 131
-Tier: C-
-Image: "[[Games/Images/r.e.p.o..png]]"
+name: R.E.P.O.
+rank: 132
+tier: C-
+image: "[[Games/Images/r.e.p.o..png]]"
 ---

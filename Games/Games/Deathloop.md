@@ -1,6 +1,6 @@
 ---
-Name: Deathloop
-Rank: 72
-Tier: C
-Image: "[[Games/Images/deathloop.png]]"
+name: Deathloop
+rank: 73
+tier: C
+image: "[[Games/Images/deathloop.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Forza Horizon 5
-Rank: 141
-Tier: C-
-Image: "[[Games/Images/forza_horizon_5.png]]"
+name: Forza Horizon 5
+rank: 142
+tier: C-
+image: "[[Games/Images/forza_horizon_5.png]]"
 ---

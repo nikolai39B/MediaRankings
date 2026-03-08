@@ -1,6 +1,6 @@
 ---
-Name: "Need for Speed: Most Wanted"
-Rank: 118
-Tier: C-
-Image: "[[Games/Images/need_for_speed_most_wanted.png]]"
+name: "Need for Speed: Most Wanted"
+rank: 119
+tier: C-
+image: "[[Games/Images/need_for_speed_most_wanted.png]]"
 ---

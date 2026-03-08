@@ -1,6 +1,6 @@
 ---
-Name: "Divinity: Original Sin"
-Rank: 95
-Tier: C
-Image: "[[Games/Images/divinity_original_sin.png]]"
+name: "Divinity: Original Sin"
+rank: 95
+tier: C
+image: "[[Games/Images/divinity_original_sin.png]]"
 ---

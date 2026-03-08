@@ -1,6 +1,6 @@
 ---
-Name: Dead Space
-Rank: 76
-Tier: C
-Image: "[[Games/Images/dead_space.png]]"
+name: Dead Space
+rank: 77
+tier: C
+image: "[[Games/Images/dead_space.png]]"
 ---

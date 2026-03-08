@@ -1,6 +1,6 @@
 ---
-Name: God of War Ragnarok
-Rank: 86
-Tier: C
-Image: "[[Games/Images/god_of_war_ragnarok.png]]"
+name: God of War Ragnarok
+rank: 87
+tier: C
+image: "[[Games/Images/god_of_war_ragnarok.png]]"
 ---

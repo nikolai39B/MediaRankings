@@ -1,6 +1,6 @@
 ---
-Name: Balatro
-Rank: 8
-Image: "[[Games/Images/balatro.jpg]]"
-Tier: A
+name: Balatro
+rank: 8
+image: "[[Games/Images/balatro.jpg]]"
+tier: A
 ---

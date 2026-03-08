@@ -1,6 +1,6 @@
 ---
-Name: A Way Out
-Rank: 190
-Tier: D
-Image: "[[Games/Images/a_way_out.png]]"
+name: A Way Out
+rank: 191
+tier: D
+image: "[[Games/Images/a_way_out.png]]"
 ---

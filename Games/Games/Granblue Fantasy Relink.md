@@ -1,6 +1,6 @@
 ---
-Name: "Granblue Fantasy: Relink"
-Rank: 85
-Tier: C
-Image: "[[Games/Images/granblue_fantasy_relink.png]]"
+name: "Granblue Fantasy: Relink"
+rank: 86
+tier: C
+image: "[[Games/Images/granblue_fantasy_relink.png]]"
 ---

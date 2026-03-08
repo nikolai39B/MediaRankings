@@ -1,6 +1,6 @@
 ---
-Name: Marvel Rivals
-Rank: 124
-Tier: C-
-Image: "[[Games/Images/marvel_rivals.png]]"
+name: Marvel Rivals
+rank: 125
+tier: C-
+image: "[[Games/Images/marvel_rivals.png]]"
 ---

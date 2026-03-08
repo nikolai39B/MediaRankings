@@ -1,8 +1,8 @@
 ---
-Name: Factorio
-Rank: 13
-Tier: A-
-Image: "[[Games/Images/factorio.png]]"
+name: Factorio
+rank: 13
+tier: A-
+image: "[[Games/Images/factorio.png]]"
 Year: "2026"
-YearRank: "1"
+Yearrank: "1"
 ---

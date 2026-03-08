@@ -1,6 +1,6 @@
 ---
-Name: Hi-Fi Rush
-Rank: 57
-Tier: B-
-Image: "[[Games/Images/hi-fi_rush.jpg]]"
+name: Hi-Fi Rush
+rank: 58
+tier: B-
+image: "[[Games/Images/hi-fi_rush.jpg]]"
 ---

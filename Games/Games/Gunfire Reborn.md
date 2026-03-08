@@ -1,6 +1,6 @@
 ---
-Name: Gunfire Reborn
-Rank: 125
-Tier: C-
-Image: "[[Games/Images/gunfire_reborn.png]]"
+name: Gunfire Reborn
+rank: 126
+tier: C-
+image: "[[Games/Images/gunfire_reborn.png]]"
 ---

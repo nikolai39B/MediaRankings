@@ -1,6 +1,6 @@
 ---
-Name: Roller Coaster Tycoon
-Rank: 43
-Tier: B
-Image: "[[Games/Images/roller_coaster_tycoon.png]]"
+name: Roller Coaster Tycoon
+rank: 43
+tier: B
+image: "[[Games/Images/roller_coaster_tycoon.png]]"
 ---

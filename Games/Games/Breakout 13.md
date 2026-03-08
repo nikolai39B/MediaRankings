@@ -1,8 +1,8 @@
 ---
-Name: Breakout 13
-Rank: 22
-Tier: A-
-Image: "[[Games/Images/breakout_13.png]]"
+name: Breakout 13
+rank: 22
+tier: A-
+image: "[[Games/Images/breakout_13.png]]"
 Year: "2025"
-YearRank: "1"
+Yearrank: "1"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Donut County
-Rank: 111
-Tier: C-
-Image: "[[Games/Images/donut_county.png]]"
+name: Donut County
+rank: 112
+tier: C-
+image: "[[Games/Images/donut_county.png]]"
 ---

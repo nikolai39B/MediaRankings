@@ -1,6 +1,6 @@
 ---
-Name: Bioshock Infinite
-Rank: 53
-Tier: B-
-Image: "[[Games/Images/bioshock_infinite.png]]"
+name: Bioshock Infinite
+rank: 54
+tier: B-
+image: "[[Games/Images/bioshock_infinite.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Shadow of the Colossus
-Rank: 69
-Tier: B-
-Image: "[[Games/Images/shadow_of_the_colossus.png]]"
+name: Shadow of the Colossus
+rank: 70
+tier: B-
+image: "[[Games/Images/shadow_of_the_colossus.png]]"
 ---

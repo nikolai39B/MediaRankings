@@ -1,6 +1,6 @@
 ---
-Name: Monster Train
-Rank: 94
-Tier: C
-Image: "[[Games/Images/monster_train.jpg]]"
+name: Monster Train
+rank: 94
+tier: C
+image: "[[Games/Images/monster_train.jpg]]"
 ---

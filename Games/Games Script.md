@@ -1,24 +1,34 @@
 ---
-Execute: "true"
-Top Games: "[[Top Games.yaml]]"
-By Year: "[[By Year.yaml]]"
+top_games: "[[Top Games.yaml]]"
+top_games_2026: "[[Top Games 2026.yaml]]"
 ---
 # Script
 ```js-engine
+customJS.GameProcessing.processTopGames()
+
+
+
+
+//const listFileLink = customJS.FileUtils.getPropertyValue(scriptFile, customJS.GameProperties.listProperties.topGames)
+//const listFile = await customJS.FileUtils.getLinkedFile(listFileLink, scriptFile)
+//const result = customJS.YamlFileUtils.parseYamlFile(listFile, obsidian);
+
+
+
 // Get user scripts
-if (!app.userScripts) {
-	console.log("User scripts not loaded.");
-	return "Processing Aborted";
-}
-const fileUtils = app.userScripts.fileUtils;
+//if (!app.userScripts) {
+//	console.log("User scripts not loaded.");
+//	return "Processing Aborted";
+//}
+//const fileUtils = app.userScripts.fileUtils;
 
 
-const file = app.workspace.getActiveFile();
-const topGamesFileLink = fileUtils.getProperty(file, "Top Games");
-const topGamesFile = await fileUtils.getLinkedFile(topGamesFileLink, file);
-console.log(topGamesFile);
-console.log(obsidian);
-console.log(await fileUtils.parseYamlFile(topGamesFile, obsidian));
+//
+//const topGamesFileLink = fileUtils.getProperty(file, "Top Games");
+//const topGamesFile = await fileUtils.getLinkedFile(topGamesFileLink, file);
+//console.log(topGamesFile);
+//console.log(obsidian);
+//console.log(await fileUtils.parseYamlFile(topGamesFile, obsidian));
 //const fileLines = await fileUtils.parseListFile(topGamesFile);
 //console.log(fileLines);
 
@@ -82,6 +92,7 @@ const gameData = [
 	"Resident Evil 2",
 	"Patapon",
 	"Chants of Sennar",
+	"Megaman 11",
 	"Keep Talking and Nobody Explodes",
 	"Frog Detective",
 	"Peak",
@@ -125,7 +136,6 @@ const gameData = [
 	"The Exit 8",
 	"The Forgotten City",
 	"Cocoon",
-	"Destiny 2",
 	"Stardew Valley",
 	"Monster Train",
 	"Divinity: Original Sin",
@@ -140,6 +150,7 @@ const gameData = [
 	"Neon White",
 	"Ghostrunner",
 	"Far Cry 3",
+	"Destiny 2",
 	"Rainbow 6: Siege",
 	"__tier__C-",
 	"Space for the Unbound",

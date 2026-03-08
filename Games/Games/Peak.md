@@ -1,6 +1,6 @@
 ---
-Name: Peak
-Rank: 52
-Tier: B-
-Image: "[[Games/Images/peak.jpg]]"
+name: Peak
+rank: 53
+tier: B-
+image: "[[Games/Images/peak.jpg]]"
 ---

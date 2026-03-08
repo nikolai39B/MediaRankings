@@ -1,6 +1,6 @@
 ---
-Name: Assassin's Creed 2
-Rank: 175
-Tier: C-
-Image: "[[Games/Images/assassin's_creed_2.png]]"
+name: Assassin's Creed 2
+rank: 176
+tier: C-
+image: "[[Games/Images/assassin's_creed_2.png]]"
 ---

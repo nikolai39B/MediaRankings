@@ -1,6 +1,6 @@
 ---
-Name: Life is Strange
-Rank: 38
-Tier: B
-Image: "[[Games/Images/life_is_strange.png]]"
+name: Life is Strange
+rank: 38
+tier: B
+image: "[[Games/Images/life_is_strange.png]]"
 ---

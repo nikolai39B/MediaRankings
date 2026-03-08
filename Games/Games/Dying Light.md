@@ -1,6 +1,6 @@
 ---
-Name: Dying Light
-Rank: 128
-Tier: C-
-Image: "[[Games/Images/dying_light.jpg]]"
+name: Dying Light
+rank: 129
+tier: C-
+image: "[[Games/Images/dying_light.jpg]]"
 ---

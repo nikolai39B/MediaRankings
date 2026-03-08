@@ -1,6 +1,6 @@
 ---
-Name: Assassin's Creed Brotherhood
-Rank: 168
-Tier: C-
-Image: "[[Games/Images/assassin's_creed_brotherhood.png]]"
+name: Assassin's Creed Brotherhood
+rank: 169
+tier: C-
+image: "[[Games/Images/assassin's_creed_brotherhood.png]]"
 ---

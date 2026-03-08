@@ -1,6 +1,6 @@
 ---
-Name: VALORANT
-Rank: 20
-Tier: A-
-Image: "[[Games/Images/valorant.png]]"
+name: VALORANT
+rank: 20
+tier: A-
+image: "[[Games/Images/valorant.png]]"
 ---

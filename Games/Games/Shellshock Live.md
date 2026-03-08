@@ -1,6 +1,6 @@
 ---
-Name: Shellshock Live
-Rank: 167
-Tier: C-
-Image: "[[Games/Images/shellshock_live.png]]"
+name: Shellshock Live
+rank: 168
+tier: C-
+image: "[[Games/Images/shellshock_live.png]]"
 ---

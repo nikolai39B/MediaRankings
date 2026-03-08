@@ -1,6 +1,6 @@
 ---
-Name: Armored Core VI
-Rank: 31
-Tier: B
-Image: "[[Games/Images/armored_core_vi.png]]"
+name: Armored Core VI
+rank: 31
+tier: B
+image: "[[Games/Images/armored_core_vi.png]]"
 ---

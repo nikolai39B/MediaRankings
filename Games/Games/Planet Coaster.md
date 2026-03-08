@@ -1,6 +1,6 @@
 ---
-Name: Planet Coaster
-Rank: 65
-Tier: B-
-Image: "[[Games/Images/planet_coaster.png]]"
+name: Planet Coaster
+rank: 66
+tier: B-
+image: "[[Games/Images/planet_coaster.png]]"
 ---

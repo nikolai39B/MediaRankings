@@ -1,6 +1,6 @@
 ---
-Name: The Forgotten City
-Rank: 90
-Tier: C
-Image: "[[the_forgotten_city.jpg]]"
+name: The Forgotten City
+rank: 91
+tier: C
+image: "[[the_forgotten_city.jpg]]"
 ---

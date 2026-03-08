@@ -1,6 +1,6 @@
 ---
-Name: Patapon
-Rank: 48
-Tier: B-
-Image: "[[Games/Images/patapon.png]]"
+name: Patapon
+rank: 48
+tier: B-
+image: "[[Games/Images/patapon.png]]"
 ---

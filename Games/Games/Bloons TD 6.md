@@ -1,6 +1,6 @@
 ---
-Name: Bloons TD 6
-Rank: 156
-Tier: C-
-Image: "[[Games/Images/bloons_td_6.png]]"
+name: Bloons TD 6
+rank: 157
+tier: C-
+image: "[[Games/Images/bloons_td_6.png]]"
 ---

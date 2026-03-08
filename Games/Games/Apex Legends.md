@@ -1,6 +1,6 @@
 ---
-Name: Apex Legends
-Rank: 34
-Tier: B
-Image: "[[Games/Images/apex_legends.jpg]]"
+name: Apex Legends
+rank: 34
+tier: B
+image:
 ---

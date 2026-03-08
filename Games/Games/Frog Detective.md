@@ -1,6 +1,6 @@
 ---
-Name: Frog Detective
-Rank: 51
-Tier: B-
-Image: "[[Games/Images/frog_detective.png]]"
+name: Frog Detective
+rank: 52
+tier: B-
+image: "[[Games/Images/frog_detective.png]]"
 ---

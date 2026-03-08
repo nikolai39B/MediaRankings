@@ -1,6 +1,6 @@
 ---
-Name: Citizen Sleeper
-Rank: 41
-Tier: B
-Image: "[[Games/Images/citizen_sleeper.png]]"
+name: Citizen Sleeper
+rank: 41
+tier: B
+image: "[[Games/Images/citizen_sleeper.png]]"
 ---

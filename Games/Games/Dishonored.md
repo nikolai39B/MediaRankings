@@ -1,6 +1,6 @@
 ---
-Name: Dishonored
-Rank: 11
-Tier: A
-Image: "[[dishonored.jpg]]"
+name: Dishonored
+rank: 11
+tier: A
+image: "[[dishonored.jpg]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Mario Kart Wii
-Rank: 145
-Tier: C-
-Image: "[[Games/Images/mario_kart_wii.png]]"
+name: Mario Kart Wii
+rank: 146
+tier: C-
+image: "[[Games/Images/mario_kart_wii.png]]"
 ---

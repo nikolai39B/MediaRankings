@@ -1,8 +1,8 @@
 ---
-Name: Elden Ring Nightreign
-Rank: 26
-Tier: B
-Image: "[[elden_ring_nightreign.jpg]]"
+name: Elden Ring Nightreign
+rank: 26
+tier: B
+image: "[[elden_ring_nightreign.jpg]]"
 Year: "2025"
-YearRank: "2"
+Yearrank: "2"
 ---

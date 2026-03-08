@@ -1,6 +1,6 @@
 ---
-Name: "Styx: Master of Shadows"
-Rank: 151
-Tier: C-
-Image: "[[Games/Images/styx_master_of_shadows.png]]"
+name: "Styx: Master of Shadows"
+rank: 152
+tier: C-
+image: "[[Games/Images/styx_master_of_shadows.png]]"
 ---

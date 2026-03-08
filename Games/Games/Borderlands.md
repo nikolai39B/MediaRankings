@@ -1,6 +1,6 @@
 ---
-Name: Borderlands
-Rank: 178
-Tier: C-
-Image: "[[Games/Images/borderlands.png]]"
+name: Borderlands
+rank: 179
+tier: C-
+image: "[[Games/Images/borderlands.png]]"
 ---

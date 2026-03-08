@@ -1,6 +1,6 @@
 ---
-Name: "Rainbow 6: Siege"
-Rank: 107
-Tier: C
-Image: "[[rainbow_six_siege.png]]"
+name: "Rainbow 6: Siege"
+rank: 108
+tier: C
+image: "[[rainbow_six_siege.png]]"
 ---

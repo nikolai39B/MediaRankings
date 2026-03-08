@@ -1,6 +1,6 @@
 ---
-Name: Helldivers II
-Rank: 30
-Tier: B
-Image: "[[Games/Images/helldivers_ii.png]]"
+name: Helldivers II
+rank: 30
+tier: B
+image: "[[Games/Images/helldivers_ii.png]]"
 ---

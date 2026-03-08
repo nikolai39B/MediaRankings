@@ -1,6 +1,6 @@
 ---
-Name: Overcooked 2
-Rank: 71
-Tier: C
-Image: "[[Games/Images/overcooked_2.png]]"
+name: Overcooked 2
+rank: 72
+tier: C
+image: "[[Games/Images/overcooked_2.png]]"
 ---

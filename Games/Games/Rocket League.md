@@ -1,6 +1,6 @@
 ---
-Name: Rocket League
-Rank: 59
-Tier: B-
-Image: "[[Games/Images/rocket_league.png]]"
+name: Rocket League
+rank: 60
+tier: B-
+image: "[[Games/Images/rocket_league.png]]"
 ---

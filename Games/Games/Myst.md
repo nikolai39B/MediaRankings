@@ -1,6 +1,6 @@
 ---
-Name: Myst
-Rank: 33
-Tier: B
-Image: "[[Games/Images/myst.jpg]]"
+name: Myst
+rank: 33
+tier: B
+image: "[[Games/Images/myst.jpg]]"
 ---

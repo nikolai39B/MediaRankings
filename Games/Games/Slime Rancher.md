@@ -1,6 +1,6 @@
 ---
-Name: Slime Rancher
-Rank: 166
-Tier: C-
-Image: "[[Games/Images/slime_rancher.png]]"
+name: Slime Rancher
+rank: 167
+tier: C-
+image: "[[Games/Images/slime_rancher.png]]"
 ---

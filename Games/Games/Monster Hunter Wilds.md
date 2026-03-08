@@ -1,6 +1,6 @@
 ---
-Name: Monster Hunter Wilds
-Rank: 78
-Tier: C
-Image: "[[monster_hunter_wilds.jpg]]"
+name: Monster Hunter Wilds
+rank: 79
+tier: C
+image: "[[monster_hunter_wilds.jpg]]"
 ---

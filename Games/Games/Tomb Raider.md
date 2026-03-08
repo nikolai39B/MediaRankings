@@ -1,6 +1,6 @@
 ---
-Name: Tomb Raider
-Rank: 165
-Tier: C-
-Image: "[[Games/Images/tomb_raider.jpg]]"
+name: Tomb Raider
+rank: 166
+tier: C-
+image: "[[Games/Images/tomb_raider.jpg]]"
 ---

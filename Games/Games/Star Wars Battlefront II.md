@@ -1,6 +1,6 @@
 ---
-Name: "Star Wars: Battlefront II"
-Rank: 140
-Tier: C-
-Image: "[[Games/Images/star_wars_battlefront_ii.png]]"
+name: "Star Wars: Battlefront II"
+rank: 141
+tier: C-
+image: "[[Games/Images/star_wars_battlefront_ii.png]]"
 ---

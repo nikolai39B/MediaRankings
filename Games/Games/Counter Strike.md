@@ -1,6 +1,6 @@
 ---
-Name: Counter Strike
-Rank: 150
-Tier: C-
-Image: "[[Games/Images/counter_strike.jpg]]"
+name: Counter Strike
+rank: 151
+tier: C-
+image: "[[Games/Images/counter_strike.jpg]]"
 ---

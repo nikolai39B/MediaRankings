@@ -1,6 +1,6 @@
 ---
-Name: Into the Breach
-Rank: 56
-Tier: B-
-Image: "[[Games/Images/into_the_breach.png]]"
+name: Into the Breach
+rank: 57
+tier: B-
+image: "[[Games/Images/into_the_breach.png]]"
 ---

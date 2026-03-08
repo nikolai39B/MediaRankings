@@ -1,6 +1,6 @@
 ---
-Name: Darksiders
-Rank: 136
-Tier: C-
-Image: "[[Games/Images/darksiders.png]]"
+name: Darksiders
+rank: 137
+tier: C-
+image: "[[Games/Images/darksiders.png]]"
 ---

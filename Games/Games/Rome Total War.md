@@ -1,6 +1,6 @@
 ---
-Name: Rome Total War
-Rank: 55
-Tier: B-
-Image: "[[Games/Images/rome_total_war.png]]"
+name: Rome Total War
+rank: 56
+tier: B-
+image: "[[Games/Images/rome_total_war.png]]"
 ---

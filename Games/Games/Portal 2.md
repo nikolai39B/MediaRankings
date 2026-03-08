@@ -1,6 +1,6 @@
 ---
-Name: Portal 2
-Rank: 23
-Tier: A-
-Image: "[[Games/Images/portal_2.png]]"
+name: Portal 2
+rank: 23
+tier: A-
+image: "[[Games/Images/portal_2.png]]"
 ---

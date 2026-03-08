@@ -1,6 +1,6 @@
 ---
-Name: Dishonored 2
-Rank: 17
-Tier: A-
-Image: "[[Games/Images/dishonored_2.png]]"
+name: Dishonored 2
+rank: 17
+tier: A-
+image: "[[Games/Images/dishonored_2.png]]"
 ---

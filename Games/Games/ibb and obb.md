@@ -1,6 +1,6 @@
 ---
-Name: ibb and obb
-Rank: 170
-Tier: C-
-Image: "[[Games/Images/ibb_and_obb.jpg]]"
+name: ibb and obb
+rank: 171
+tier: C-
+image: "[[Games/Images/ibb_and_obb.jpg]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Borderlands 2
-Rank: 144
-Tier: C-
-Image: "[[Games/Images/borderlands_2.png]]"
+name: Borderlands 2
+rank: 145
+tier: C-
+image: "[[Games/Images/borderlands_2.png]]"
 ---

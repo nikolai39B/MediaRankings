@@ -1,6 +1,6 @@
 ---
-Name: System Shock
-Rank: 24
-Tier: A-
-Image: "[[system_shock.jpg]]"
+name: System Shock
+rank: 24
+tier: A-
+image: "[[system_shock.jpg]]"
 ---

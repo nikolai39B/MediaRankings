@@ -1,6 +1,6 @@
 ---
-Name: Far Cry 4
-Rank: 100
-Tier: C
-Image: "[[Games/Images/far_cry_4.jpg]]"
+name: Far Cry 4
+rank: 100
+tier: C
+image: "[[Games/Images/far_cry_4.jpg]]"
 ---

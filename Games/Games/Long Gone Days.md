@@ -1,6 +1,6 @@
 ---
-Name: Long Gone Days
-Rank: 188
-Tier: D
-Image: "[[Games/Images/long_gone_days.jpg]]"
+name: Long Gone Days
+rank: 189
+tier: D
+image: "[[Games/Images/long_gone_days.jpg]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Tier: A
-Rank: 3
-Image: "[[omori.png]]"
-Name: OMORI
+tier: A
+rank: 3
+image: "[[omori.png]]"
+name: OMORI
 ---

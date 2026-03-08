@@ -1,6 +1,6 @@
 ---
-Name: CONTROL
-Rank: 96
-Tier: C
-Image: "[[Games/Images/control.png]]"
+name: CONTROL
+rank: 96
+tier: C
+image: "[[Games/Images/control.png]]"
 ---

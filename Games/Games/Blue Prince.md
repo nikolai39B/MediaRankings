@@ -1,6 +1,6 @@
 ---
-Name: Blue Prince
-Rank: 148
-Tier: C-
-Image: "[[Games/Images/blue_prince.png]]"
+name: Blue Prince
+rank: 149
+tier: C-
+image: "[[Games/Images/blue_prince.png]]"
 ---

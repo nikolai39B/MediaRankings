@@ -1,6 +1,6 @@
 ---
-Name: Bloodborne
-Rank: 16
-Tier: A-
-Image: "[[Games/Images/bloodborne.png]]"
+name: Bloodborne
+rank: 16
+tier: A-
+image: "[[Games/Images/bloodborne.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Baldur's Gate III
-Rank: 44
-Tier: B
-Image: "[[Games/Images/baldur's_gate_iii.png]]"
+name: Baldur's Gate III
+rank: 44
+tier: B
+image: "[[Games/Images/baldur's_gate_iii.png]]"
 ---

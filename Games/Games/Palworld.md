@@ -1,6 +1,6 @@
 ---
-Name: Palworld
-Rank: 177
-Tier: C-
-Image: "[[Games/Images/palworld.png]]"
+name: Palworld
+rank: 178
+tier: C-
+image: "[[Games/Images/palworld.png]]"
 ---

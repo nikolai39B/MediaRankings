@@ -1,6 +1,6 @@
 ---
-Name: Stray
-Rank: 121
-Tier: C-
-Image: "[[Games/Images/stray.png]]"
+name: Stray
+rank: 122
+tier: C-
+image: "[[Games/Images/stray.png]]"
 ---

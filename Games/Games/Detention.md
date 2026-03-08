@@ -1,6 +1,6 @@
 ---
-Name: Detention
-Rank: 97
-Tier: C
-Image: "[[Games/Images/detention.png]]"
+name: Detention
+rank: 97
+tier: C
+image: "[[Games/Images/detention.png]]"
 ---

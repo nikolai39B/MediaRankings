@@ -1,6 +1,6 @@
 ---
-Name: Scarlet Nexus
-Rank: 46
-Tier: B-
-Image: "[[Games/Images/scarlet_nexus.png]]"
+name: Scarlet Nexus
+rank: 46
+tier: B-
+image: "[[Games/Images/scarlet_nexus.png]]"
 ---

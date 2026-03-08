@@ -1,6 +1,6 @@
 ---
-Name: DOOM Eternal
-Rank: 39
-Tier: B
-Image: "[[Games/Images/doom_eternal.png]]"
+name: DOOM Eternal
+rank: 39
+tier: B
+image: "[[Games/Images/doom_eternal.png]]"
 ---

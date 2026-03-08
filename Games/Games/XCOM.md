@@ -1,6 +1,6 @@
 ---
-Name: XCOM
-Rank: 153
-Tier: C-
-Image: "[[Games/Images/xcom.png]]"
+name: XCOM
+rank: 154
+tier: C-
+image: "[[Games/Images/xcom.png]]"
 ---

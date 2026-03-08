@@ -1,6 +1,6 @@
 ---
-Name: Resident Evil 2
-Rank: 47
-Tier: B-
-Image: "[[Games/Images/resident_evil_2.png]]"
+name: Resident Evil 2
+rank: 47
+tier: B-
+image: "[[Games/Images/resident_evil_2.png]]"
 ---

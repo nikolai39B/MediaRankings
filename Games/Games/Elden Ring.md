@@ -1,6 +1,6 @@
 ---
-Tier: A
-Rank: 2
-Image: "[[elden_ring.png]]"
-Name: Elden Ring
+tier: A
+rank: 2
+image: "[[elden_ring.png]]"
+name: Elden Ring
 ---

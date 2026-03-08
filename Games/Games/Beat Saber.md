@@ -1,6 +1,6 @@
 ---
-Name: Beat Saber
-Rank: 14
-Tier: A-
-Image: "[[Games/Images/beat_saber.png]]"
+name: Beat Saber
+rank: 14
+tier: A-
+image: "[[Games/Images/beat_saber.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Guns of Icarus
-Rank: 37
-Tier: B
-Image: "[[Games/Images/guns_of_icarus.png]]"
+name: Guns of Icarus
+rank: 37
+tier: B
+image: "[[Games/Images/guns_of_icarus.png]]"
 ---

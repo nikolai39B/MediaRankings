@@ -1,6 +1,6 @@
 ---
-Tier: A
-Rank: 4
-Image: "[[hitman.png]]"
-Name: HITMAN
+tier: A
+rank: 4
+image: "[[hitman.png]]"
+name: HITMAN
 ---

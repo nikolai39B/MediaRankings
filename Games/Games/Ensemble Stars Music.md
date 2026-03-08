@@ -1,6 +1,6 @@
 ---
-Name: Ensemble Stars Music
-Rank: 68
-Tier: B-
-Image: "[[Games/Images/ensemble_stars_music.png]]"
+name: Ensemble Stars Music
+rank: 69
+tier: B-
+image: "[[Games/Images/ensemble_stars_music.png]]"
 ---

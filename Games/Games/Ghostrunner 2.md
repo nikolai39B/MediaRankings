@@ -1,6 +1,6 @@
 ---
-Name: Ghostrunner 2
-Rank: 133
-Tier: C-
-Image: "[[Games/Images/ghostrunner_2.png]]"
+name: Ghostrunner 2
+rank: 134
+tier: C-
+image: "[[Games/Images/ghostrunner_2.png]]"
 ---

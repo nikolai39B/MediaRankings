@@ -1,6 +1,6 @@
 ---
-Name: Pyre
-Rank: 27
-Tier: B
-Image: "[[Games/Images/pyre.png]]"
+name: Pyre
+rank: 27
+tier: B
+image: "[[Games/Images/pyre.png]]"
 ---

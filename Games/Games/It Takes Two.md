@@ -1,6 +1,6 @@
 ---
-Name: It Takes Two
-Rank: 126
-Tier: C-
-Image: "[[Games/Images/it_takes_two.png]]"
+name: It Takes Two
+rank: 127
+tier: C-
+image: "[[Games/Images/it_takes_two.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: "Duck Detective: The Secret Salami"
-Rank: 158
-Tier: C-
-Image: "[[Games/Images/duck_detective_the_secret_salami.png]]"
+name: "Duck Detective: The Secret Salami"
+rank: 159
+tier: C-
+image: "[[Games/Images/duck_detective_the_secret_salami.png]]"
 ---

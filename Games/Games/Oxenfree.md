@@ -1,6 +1,6 @@
 ---
-Name: Oxenfree
-Rank: 155
-Tier: C-
-Image: "[[Games/Images/oxenfree.png]]"
+name: Oxenfree
+rank: 156
+tier: C-
+image: "[[Games/Images/oxenfree.png]]"
 ---

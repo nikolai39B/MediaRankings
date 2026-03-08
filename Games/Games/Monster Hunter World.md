@@ -1,6 +1,6 @@
 ---
-Name: Monster Hunter World
-Rank: 9
-Tier: A
-Image: "[[monster_hunter_world.jpg]]"
+name: Monster Hunter World
+rank: 9
+tier: A
+image: "[[monster_hunter_world.jpg]]"
 ---

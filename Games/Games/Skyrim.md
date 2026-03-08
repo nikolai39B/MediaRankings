@@ -1,6 +1,6 @@
 ---
-Name: Skyrim
-Rank: 99
-Tier: C
-Image: "[[Games/Images/skyrim.png]]"
+name: Skyrim
+rank: 99
+tier: C
+image: "[[Games/Images/skyrim.png]]"
 ---

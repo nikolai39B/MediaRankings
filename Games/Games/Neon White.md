@@ -1,6 +1,6 @@
 ---
-Name: Neon White
-Rank: 104
-Tier: C
-Image: "[[Games/Images/neon_white.png]]"
+name: Neon White
+rank: 104
+tier: C
+image: "[[Games/Images/neon_white.png]]"
 ---

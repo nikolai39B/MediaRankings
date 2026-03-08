@@ -1,6 +1,6 @@
 ---
-Name: Destiny 2
-Rank: 92
-Tier: C
-Image: "[[Games/Images/destiny_2.png]]"
+name: Destiny 2
+rank: 107
+tier: C
+image: "[[Games/Images/destiny_2.png]]"
 ---

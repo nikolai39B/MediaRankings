@@ -1,6 +1,6 @@
 ---
-Name: Alan Wake II
-Rank: 21
-Tier: A-
-Image: "[[Games/Images/alan_wake_ii.png]]"
+name: Alan Wake II
+rank: 21
+tier: A-
+image: "[[Games/Images/alan_wake_ii.png]]"
 ---

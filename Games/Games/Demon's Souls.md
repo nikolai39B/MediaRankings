@@ -1,6 +1,6 @@
 ---
-Name: Demon's Souls
-Rank: 25
-Tier: A-
-Image: "[[Games/Images/demon's_souls.png]]"
+name: Demon's Souls
+rank: 25
+tier: A-
+image: "[[Games/Images/demon's_souls.png]]"
 ---

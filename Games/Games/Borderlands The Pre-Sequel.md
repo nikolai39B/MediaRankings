@@ -1,6 +1,6 @@
 ---
-Name: "Borderlands: The Pre-Sequel"
-Rank: 173
-Tier: C-
-Image: "[[Games/Images/borderlands_the_pre-sequel.png]]"
+name: "Borderlands: The Pre-Sequel"
+rank: 174
+tier: C-
+image: "[[Games/Images/borderlands_the_pre-sequel.png]]"
 ---

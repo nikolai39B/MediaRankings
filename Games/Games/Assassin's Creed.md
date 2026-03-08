@@ -1,6 +1,6 @@
 ---
-Name: Assassin's Creed
-Rank: 179
-Tier: C-
-Image: "[[Games/Images/assassin's_creed.png]]"
+name: Assassin's Creed
+rank: 180
+tier: C-
+image: "[[Games/Images/assassin's_creed.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: INSIDE
-Rank: 81
-Tier: C
-Image: "[[Games/Images/inside.png]]"
+name: INSIDE
+rank: 82
+tier: C
+image: "[[Games/Images/inside.png]]"
 ---

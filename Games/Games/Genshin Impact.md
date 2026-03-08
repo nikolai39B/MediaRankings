@@ -1,6 +1,6 @@
 ---
-Name: Genshin Impact
-Rank: 29
-Tier: B
-Image: "[[Games/Images/genshin_impact.png]]"
+name: Genshin Impact
+rank: 29
+tier: B
+image: "[[Games/Images/genshin_impact.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
-Name: Sanctum
-Rank: 169
-Tier: C-
-Image: "[[Games/Images/sanctum.png]]"
+name: Sanctum
+rank: 170
+tier: C-
+image: "[[Games/Images/sanctum.png]]"
 ---

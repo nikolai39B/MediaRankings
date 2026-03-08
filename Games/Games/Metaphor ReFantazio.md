@@ -1,6 +1,6 @@
 ---
-Tier: A
-Rank: 5
-Image: "[[metaphor_refantazio.png]]"
-Name: "Metaphor: ReFantazio"
+tier: A
+rank: 5
+image: "[[metaphor_refantazio.png]]"
+name: "Metaphor: ReFantazio"
 ---

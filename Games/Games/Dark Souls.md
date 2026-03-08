@@ -1,6 +1,6 @@
 ---
-Name: Dark Souls
-Rank: 18
-Tier: A-
-Image: "[[Games/Images/dark_souls.png]]"
+name: Dark Souls
+rank: 18
+tier: A-
+image: "[[Games/Images/dark_souls.png]]"
 ---

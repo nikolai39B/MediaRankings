@@ -1,6 +1,6 @@
 ---
-Name: Monster Hunter Rise
-Rank: 67
-Tier: B-
-Image: "[[monster_hunter_rise.png]]"
+name: Monster Hunter Rise
+rank: 68
+tier: B-
+image: "[[monster_hunter_rise.png]]"
 ---

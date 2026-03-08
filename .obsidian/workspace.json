@@ -22,35 +22,105 @@
               "icon": "lucide-file",
               "title": "Games"
             }
-          }
-        ]
-      },
-      {
-        "id": "c16d1d9f13e0102a",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "c04da2b7d7777294",
+            "id": "1cbf998f5349d43b",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "Games/Scripts/steamgriddb_utils2.js"
+                "file": "Games/Games/Outer Wilds.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "steamgriddb_utils2"
+              "title": "Outer Wilds"
             }
           },
           {
-            "id": "9d81cadd174229d7",
+            "id": "a90ab5657950d2b1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games Script.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Games Script"
+            }
+          },
+          {
+            "id": "e83e3807644870f2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Apex Legends.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Apex Legends"
+            }
+          },
+          {
+            "id": "9329902f70ba7fb2",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "Scripts/file_utils.js"
+                "file": "Games/Games.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "file_utils"
+              "title": "Games"
+            }
+          },
+          {
+            "id": "7529c1a63f6b81f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Outer Wilds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Outer Wilds"
+            }
+          },
+          {
+            "id": "c9a13cafec52249a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/Games/Outer Wilds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Outer Wilds"
+            }
+          },
+          {
+            "id": "8e9c7f177293f421",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Games/Images/outer_wilds.png"
+              },
+              "icon": "lucide-image",
+              "title": "outer_wilds"
             }
           }
         ]
@@ -206,7 +276,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "vscode-editor:Create Code File": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,52 +285,52 @@
       "bases:Create new base": false
     }
   },
-  "active": "c04da2b7d7777294",
+  "active": "755ce422d18218b0",
   "lastOpenFiles": [
+    "Games/Games/Outer Wilds.md",
     "Games/Games.md",
-    "Games/Scripts/steamgriddb_utils2.js",
-    "Games/Scripts/steamgriddb_utils.js",
-    "Games/Scripts/game_processing.js",
+    "Games/Images/outer_wilds.png",
+    "Games/Images/outer_wilds.jpg",
+    "Games/Images/overcooked_2.png",
+    "Games/Images/overwatch.png",
+    "Games/Images/orcs_must_die_3.png",
+    "Games/Images/ori_and_the_will_of_the_wisps.png",
     "Games/Games Script.md",
-    "Scripts/file_utils.js",
-    "Scripts/jse_main.js",
+    "Games/Images/elden_ring_nightreign.png",
+    "Games/Images/system_shock.png",
+    "Games/Images/dark_souls_ii_scholar_of_the_first_sin.png",
+    "Games/Images/dishonored.png",
+    "Scripts/CustomJs/gameProcessing.js",
+    "Scripts/CustomJs/gameProcessing",
+    "Games/Games/Apex Legends.md",
+    "Scripts/CustomJs/steamGridDbUtils.js",
+    "Scripts/CustomJs/gameProperties.js",
+    "Scripts/CustomJs/_gameProperties.js",
+    "Scripts/CustomJs/yamlFileUtils.js",
+    "Scripts/CustomJs/steamgriddb_utils.js",
+    "Scripts/CustomJs/fileMetadata.js",
+    "Scripts/JsEngine/Test.md",
+    "Scripts/JsEngine/Properties.md",
+    "Scripts/JsEngine",
+    "Scripts/CustomJs/_fileMetadata.js",
+    "Scripts/Scripts/JsEngine/Test.md",
+    "Scripts/Scripts/JsEngine/Properties.md",
+    "Games/Games/Baldur's Gate III.md",
+    "Games/Games/Roller Coaster Tycoon.md",
+    "Games/Games/Megaman 11.md",
     "Templates/Game.md",
-    "Games/Scripts/games.js",
-    "Games/Lists/Top Games.yaml",
-    "Games/Lists/By Year.yaml",
     "Games/Lists/Top Games.md",
     "Games/Lists/By Year - Copy.md",
     "Games/Lists/By Year.md",
-    "Scripts/New Text Document.txt",
-    "Scripts",
     "Games/Games 2.md",
     "Games/Games 1.md",
-    "Games/Images/twelve_minutes.png",
     "Games/Games/Twelve Minutes.md",
-    "Games/Images/trailmakers.png",
     "Games/Games/Trailmakers.md",
-    "Games/Images/unboxing_the_cryptic_killer.png",
     "Games/Games/Unboxing the Cryptic Killer.md",
-    "Games/Images/untitled_goose_game.png",
     "Games/Games/Untitled Goose Game.md",
-    "Games/Images/pubg_battlegrounds.png",
     "Games/Games/PUBG Battlegrounds.md",
-    "Games/Images/thief.jpg",
     "Games/Games/Thief.md",
-    "Games/Images/sanctum.png",
     "Games/Games/Sanctum.md",
-    "Games/Images/slime_rancher.png",
-    "Games/Games/Slime Rancher.md",
-    "Games/Images/payday_3.jpg",
-    "Games/Games/PAYDAY 3.md",
-    "Games/Images/styx_master_of_shadows.png",
-    "Games/Games/Styx Master of Shadows.md",
-    "Games/Games/Shadow Tactics Blades of the Shogun.md",
-    "Games/Games/Planet Coaster.md",
-    "Games/Games/Roller Coaster Tycoon.md",
-    "Games/Games/Myst.md",
-    "Games/Games/Palworld.md",
-    "Games/Games/Operation Tango.md",
-    "Games/Games/Ori and the Will of the Wisps.md"
+    "Games/Games/Slime Rancher.md"
   ]
 }

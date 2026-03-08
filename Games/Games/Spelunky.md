@@ -1,6 +1,6 @@
 ---
-Name: Spelunky
-Rank: 176
-Tier: C-
-Image: "[[Games/Images/spelunky.png]]"
+name: Spelunky
+rank: 177
+tier: C-
+image: "[[Games/Images/spelunky.png]]"
 ---

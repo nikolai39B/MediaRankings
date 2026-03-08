@@ -1,6 +1,6 @@
 ---
-Name: Inscryption
-Rank: 15
-Tier: A-
-Image: "[[Games/Images/inscryption.jpg]]"
+name: Inscryption
+rank: 15
+tier: A-
+image: "[[Games/Images/inscryption.jpg]]"
 ---

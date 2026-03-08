@@ -1,6 +1,6 @@
 ---
-Name: "Persona 5: Royal"
-Rank: 7
-Image: "[[Games/Images/persona_5_royal.png]]"
-Tier: A
+name: "Persona 5: Royal"
+rank: 7
+image: "[[Games/Images/persona_5_royal.png]]"
+tier: A
 ---

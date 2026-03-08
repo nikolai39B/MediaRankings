@@ -1,6 +1,6 @@
 ---
-Name: Stardew Valley
-Rank: 93
-Tier: C
-Image: "[[Games/Images/stardew_valley.png]]"
+name: Stardew Valley
+rank: 93
+tier: C
+image: "[[Games/Images/stardew_valley.png]]"
 ---

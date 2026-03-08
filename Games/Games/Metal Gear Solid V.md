@@ -1,6 +1,6 @@
 ---
-Name: Metal Gear Solid V
-Rank: 114
-Tier: C-
-Image: "[[Games/Images/metal_gear_solid_v.jpg]]"
+name: Metal Gear Solid V
+rank: 115
+tier: C-
+image: "[[Games/Images/metal_gear_solid_v.jpg]]"
 ---
