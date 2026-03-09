@@ -60,10 +60,10 @@ class GameProcessing {
 
         // Process the data
         if (top10Data) {
-            this.#processYearTop10(year, top10Data)
+            await this.#processYearTop10(year, top10Data)
         }
         if (hmData) {
-            this.#processYearHonorableMentions(year, hmData)
+            await this.#processYearHonorableMentions(year, hmData)
         }
     }
 
@@ -79,6 +79,9 @@ class GameProcessing {
             // Build the file
             let fileProperties = [];
             const gameFile = await this.#processGameFile(gameName, fileProperties);
+
+            // If this game already has a year, notify that we are overwriting it
+            this.#checkYearOverwrite(gameFile, gameName, year);
 
             // Add the year and rank
             this.#addProperty(customJS.GameProperties.properties.year, year, fileProperties);
@@ -104,8 +107,12 @@ class GameProcessing {
             let fileProperties = [];
             const gameFile = await this.#processGameFile(gameName, fileProperties);
 
+            // If this game already has a year, notify that we are overwriting it
+            this.#checkYearOverwrite(gameFile, gameName, year);
+
             // Add the year (no rank for honorable mentions)
             this.#addProperty(customJS.GameProperties.properties.year, year, fileProperties);
+            this.#addProperty(customJS.GameProperties.properties.yearRank, null, fileProperties);
 
             // Process the image
             await this.#processGameImage(gameName, gameFile, fileProperties)
@@ -140,9 +147,19 @@ class GameProcessing {
         gameFileName = this.gameFilesLocation + gameFileName + ".md";
 
         // Get the file / create if necessary
-        let gameFile = app.vault.getFileByPath(gameFileName);		
+        let gameFile = app.vault.getFileByPath(gameFileName);
         if (gameFile == null) {
-            gameFile = await app.vault.create(gameFileName, "")
+            try {
+                console.log(`Creating: ${gameFileName}`);
+                gameFile = await app.vault.create(gameFileName, "");
+            } catch (e) {
+                // File may have been created between the check and the create
+                gameFile = app.vault.getFileByPath(gameFileName);
+                if (gameFile == null) {
+                    console.log(`Failed to create file: ${gameFileName}`);
+                    return null;
+                }
+            }
         }
 
         // Add the game name property
@@ -194,7 +211,7 @@ class GameProcessing {
 			}
 		}
 		if (imageUrl === "") {
-			return "";
+			return null;
 		}		
 		
 		// Build the name of the file
@@ -207,7 +224,7 @@ class GameProcessing {
 			imageName += ".jpg";
 		} else {
 			console.log("invalid image extension");
-			return "";
+			return null;
 		}
 		var imagePath = this.gameImagesLocation + imageName;
 		
@@ -220,4 +237,11 @@ class GameProcessing {
         this.#addProperty(customJS.GameProperties.properties.image, "[[" + imagePath + "]]", fileProperties);
         return imageUrl;
 	}
+
+    #checkYearOverwrite(gameFile, gameName, year) {
+        const oldYear = customJS.FileUtils.getPropertyValue(gameFile, customJS.GameProperties.properties.year);
+        if (oldYear && oldYear != year) {
+            console.log(`Overwriting year for ${gameName} from ${oldYear} to ${year}`)
+        }
+    }
 }

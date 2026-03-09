@@ -47,6 +47,7 @@ views:
     filters:
       and:
         - file.hasProperty("year_rank")
+        - year_rank != null
     groupBy:
       property: year
       direction: DESC
@@ -74,5 +75,10 @@ views:
         direction: ASC
     columnSize:
       note.year_rank: 58
+  - type: cards
+    name: All Games
+    image: note.Image
+    imageFit: contain
+    imageAspectRatio: 1.5
 
 ```

@@ -1,6 +1,6 @@
 ---
 name: Trailmakers
-rank: 164
+rank: 166
 tier: C-
 image: "[[Games/Images/trailmakers.png]]"
 ---

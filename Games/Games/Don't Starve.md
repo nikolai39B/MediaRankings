@@ -1,6 +1,6 @@
 ---
 name: Don't Starve
-rank: 186
+rank: 190
 tier: D
 image: "[[Games/Images/don't_starve.png]]"
 ---

@@ -1,6 +1,6 @@
 ---
 name: "PUBG: Battlegrounds"
-rank: 183
+rank: 187
 tier: D
 image: "[[Games/Images/pubg_battlegrounds.png]]"
 ---

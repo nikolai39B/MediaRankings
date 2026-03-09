@@ -1,6 +1,6 @@
 ---
 name: Thief
-rank: 181
+rank: 185
 tier: D
 image: "[[Games/Images/thief.jpg]]"
 ---

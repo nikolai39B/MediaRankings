@@ -1,6 +1,6 @@
 ---
 name: PAYDAY 3
-rank: 161
+rank: 163
 tier: C-
 image: "[[Games/Images/payday_3.jpg]]"
 ---

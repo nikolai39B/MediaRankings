@@ -1,6 +1,6 @@
 ---
 name: Arc Raiders
-rank: 154
+rank: 156
 tier: C-
 image: "[[Games/Images/arc_raiders.png]]"
 ---
