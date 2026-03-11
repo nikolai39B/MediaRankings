@@ -1,7 +1,7 @@
 ---
 name: Sea of Stars
-image: "[[Games/Images/sea_of_stars.jpg]]"
+image: "[[sea_of_stars.png]]"
 has_year_rank: true
 year: "2026"
-year_rank: 2
+year_rank: 3
 ---

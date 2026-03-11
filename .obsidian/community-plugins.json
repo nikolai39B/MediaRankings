@@ -2,5 +2,7 @@
   "steamgriddb-embedder",
   "js-engine",
   "customjs",
-  "quickadd"
+  "quickadd",
+  "sample-plugin",
+  "programmatic-bases"
 ]

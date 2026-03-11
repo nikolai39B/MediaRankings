@@ -24,21 +24,20 @@
             }
           },
           {
-            "id": "73b149398fcf82f5",
+            "id": "6daedad8719784c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/Games.md",
+                "file": "Games/Games/Sea of Stars.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Games"
+              "title": "Sea of Stars"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,12 +197,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "programmatic-bases:Sample": false
     }
   },
-  "active": "73b149398fcf82f5",
+  "active": "755ce422d18218b0",
   "lastOpenFiles": [
+    "Games/Games/Sea of Stars.md",
     "Games/Games.md",
+    "Games/Images/sea_of_stars.png",
     "Games/Games/Palworld.md",
     "Games/Images/cuphead.png",
     "Games/Games/Cuphead.md",
@@ -228,7 +230,6 @@
     "Games/Images/sekrio.png",
     "Games/Games/Cyberpunk 2077 Phantom Liberty.md",
     "Games/Games/Cyberpunk 2077.md",
-    "Games/Images/phasmophobia.png",
     "Games/Games/Phasmophobia.md",
     "Games/Games/Persona 4 Golden.md",
     "Games/Games/Boomerang X.md",
@@ -238,7 +239,6 @@
     "Games/Games/Half Life Alyx.md",
     "Games/Games/Overwatch 2.md",
     "Games/Games/The Pedestrian.md",
-    "Games/Games/Nier Automata.md",
     "Games/Lists/Top Games 2022.yaml",
     "Games/Lists/Top Games 2019.yaml",
     "Games/Lists/Top Games 2020.yaml",

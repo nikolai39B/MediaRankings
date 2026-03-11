@@ -5,5 +5,5 @@ tier: B-
 image: "[[Games/Images/megaman_11.png]]"
 has_year_rank: true
 year: "2026"
-year_rank: 4
+year_rank: 5
 ---
