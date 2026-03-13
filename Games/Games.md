@@ -7,8 +7,6 @@ formulas:
   Rank Title: file.properties["rank"] + " " + file.properties["name"]
   Year Rank Title: file.properties["year_rank"] + " " + file.properties["name"]
 properties:
-  note.Rank:
-    displayName: "#"
   file.name:
     displayName: Game
   note.rank:
@@ -24,7 +22,7 @@ views:
     order:
       - formula.Rank Title
     sort:
-      - property: rank
+      - property: note.rank
         direction: ASC
     image: note.Image
     imageFit: contain
@@ -68,7 +66,7 @@ views:
       property: year
       direction: DESC
     order:
-      - year_rank
+      - note.year_rank
       - file.name
     sort:
       - property: year_rank
